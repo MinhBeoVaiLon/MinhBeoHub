@@ -1,0 +1,131 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MinhBeo Hub", "Ocean")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewToggle("Chay Nhanh Voi Nhay Cao Vai Lon ( khong work in blox fruit )", "Chay Nhanh Voi Bay Cao", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
+
+-- Script
+local Admin = Window:NewTab("AdminGui")
+local AdminSection = Admin:NewSection("AdminGui")
+
+AdminSection:NewButton("Infinite Yield", "Hack Bang Gui Admin", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+-- Script 2
+local Roblox = Window:NewTab("Blox Fruit Script")
+local RobloxSection = Roblox:NewSection("Blox Fruit Script")
+
+RobloxSection:NewButton("ThunderZ", "ThunderZ", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"),true))()
+end)
+
+RobloxSection:NewButton("Neva Hub", "NevaHub", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"),true))()
+end)
+
+RobloxSection:NewButton("Table Hub Crack", "Table Hub Crack", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/scripts/egoD/tablekhoc.lua'),true))()
+end)
+
+RobloxSection:NewButton("ZenHub", "ZenHub", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'),true))()
+end)
+
+RobloxSection:NewButton("MukuroHub", "MukuroHub", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua'),true))()
+end)
+
+-- Script 3
+local Pet = Window:NewTab("PetSimulator Script")
+local PetSection = Pet:NewSection("PetSimulator Script")
+
+
+PetSection:NewButton("PetSimulator Script 1", "PetSimulator Script", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"),true))()  
+end)
+
+PetSection:NewButton("PetSimulator Script 2", "PetSimulator Script 2", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"),true))()
+end)
+
+-- Script 4
+local Dahood = Window:NewTab("Da Hood Script")
+local DahoodSection = Dahood:NewSection("Da Hood Script")
+
+
+DahoodSection:NewButton("Space X Script Da Hood", "Space X Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
+
+DahoodSection:NewButton("RayX Script Da Hood", "RayX Script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'),true))()
+end)
+
+-- Script 5
+local Beeswarm = Window:NewTab("BeeSwarm Script")
+local BeeswarmSection = Beeswarm:NewSection("BeeSwarm Script")
+
+BeeswarmSection:NewButton("Marco v2 Bee Swarm", "Marco v2", function()
+    loadstring(game:HttpGet(("https://www.macrov2-script.xyz/macrov2.lua"),true))()
+end)
+
+BeeswarmSection:NewButton("Kometa Hub Bee Swarm", "Kometa Hub", function()
+    loadstring(game:HttpGet(('https://s.kometa.ga/kometa.lua'),true))()
+end)
+
+-- Local Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewSlider("IshowSpeed", "BlackColorSpeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("IshowJump", "BlackColorJump", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Lam Speed Voi Jump Tro Lai Binh Thuong", " Speed Voi Jump Thanh Binh Thuong", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+-- Joke
+local Other = Window:NewTab("Other Meme")
+local OtherSection = Other:NewSection("Other Meme")
+
+OtherSection:NewButton("Joke Do Dung Click", "Joke Day Dung Click", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/MinhBeoVaiLon/MinhBeoTest/main/MinhBeoSource"),true))()
+end)
+
+-- Coming Soon
+local ComingSoon = Window:NewTab("ComingSoon")
+local ComingSoonSection = ComingSoon:NewSection("Con Them Nhieu Script Tiep :)))")
+
+-- Vo Discord
+wait(1.1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "https://discord.gg/dw6vjMX6", 
+    Text = "Vô Discord https://discord.gg/dw6vjMX6 Đi"
+})
+
+wait(2.4)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "https://discord.gg/dw6vjMX6", 
+    Text = "Vô Discord https://discord.gg/dw6vjMX6 Đi"
+})
