@@ -1,10 +1,11 @@
+local Players = game:GetService("Players")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("MinhBeo Hub", "Ocean")
+local Window = Library.CreateLib("MinhBeo Hub🤓🍕🍔", "Ocean")
 
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
+local Main = Window:NewTab("Nhân Vật Chính :))🤓")
+local MainSection = Main:NewSection("Nhân Vật Chính :))🤓")
 
-MainSection:NewToggle("Chay Nhanh Voi Nhay Cao Vai Lon ( khong work in blox fruit )", "Chay Nhanh Voi Bay Cao", function(state)
+MainSection:NewToggle("Chay Nhanh Voi Nhay Cao Vai Lon ( khong work in blox fruit )🤓", "Chay Nhanh Voi Bay Cao🤓", function(state)
     if state then
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
@@ -15,103 +16,129 @@ MainSection:NewToggle("Chay Nhanh Voi Nhay Cao Vai Lon ( khong work in blox frui
 end)
 
 -- Script
-local Admin = Window:NewTab("AdminGui")
-local AdminSection = Admin:NewSection("AdminGui")
+local Admin = Window:NewTab("AdminGui🤓")
+local AdminSection = Admin:NewSection("AdminGui🤓")
 
-AdminSection:NewButton("Infinite Yield", "Hack Bang Gui Admin", function()
+AdminSection:NewButton("Infinite Yield🤓", "Hack Bang Gui Admin🤓", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
 -- Script 2
-local Roblox = Window:NewTab("Blox Fruit Script")
-local RobloxSection = Roblox:NewSection("Blox Fruit Script")
+local Roblox = Window:NewTab("Blox Fruit Script🤓")
+local RobloxSection = Roblox:NewSection("Blox Fruit Script🤓")
 
-RobloxSection:NewButton("ThunderZ", "ThunderZ", function()
+RobloxSection:NewButton("ThunderZ🤓", "ThunderZ🤓", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"),true))()
 end)
 
-RobloxSection:NewButton("Neva Hub", "NevaHub", function()
+RobloxSection:NewButton("Neva Hub🤓", "NevaHub🤓", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"),true))()
 end)
 
-RobloxSection:NewButton("Table Hub Crack", "Table Hub Crack", function()
+RobloxSection:NewButton("Table Hub Crack🤓", "Table Hub Crack🤓", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/scripts/egoD/tablekhoc.lua'),true))()
 end)
 
-RobloxSection:NewButton("ZenHub", "ZenHub", function()
+RobloxSection:NewButton("ZenHub🤓", "ZenHub🤓", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'),true))()
 end)
 
-RobloxSection:NewButton("MukuroHub", "MukuroHub", function()
+RobloxSection:NewButton("MukuroHub🤓", "MukuroHub🤓", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua'),true))()
 end)
 
 -- Script 3
-local Pet = Window:NewTab("PetSimulator Script")
-local PetSection = Pet:NewSection("PetSimulator Script")
+local Pet = Window:NewTab("PetSimulator Script🤓")
+local PetSection = Pet:NewSection("PetSimulator Script🤓")
 
 
-PetSection:NewButton("PetSimulator Script 1", "PetSimulator Script", function()
+PetSection:NewButton("PetSimulator Script 1🤓", "PetSimulator Script🤓", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"),true))()  
 end)
 
-PetSection:NewButton("PetSimulator Script 2", "PetSimulator Script 2", function()
+PetSection:NewButton("PetSimulator Script 2🤓", "PetSimulator Script 2🤓", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"),true))()
 end)
 
 -- Script 4
-local Dahood = Window:NewTab("Da Hood Script")
-local DahoodSection = Dahood:NewSection("Da Hood Script")
+local Dahood = Window:NewTab("Da Hood Script🤓")
+local DahoodSection = Dahood:NewSection("Da Hood Script🤓")
 
 
-DahoodSection:NewButton("Space X Script Da Hood", "Space X Script", function()
+DahoodSection:NewButton("Space X Script Da Hood🤓", "Space X Script🤓", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
 end)
 
-DahoodSection:NewButton("RayX Script Da Hood", "RayX Script", function()
+DahoodSection:NewButton("RayX Script Da Hood🤓", "RayX Script💢🤓", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'),true))()
 end)
 
 -- Script 5
-local Beeswarm = Window:NewTab("BeeSwarm Script")
-local BeeswarmSection = Beeswarm:NewSection("BeeSwarm Script")
+local Beeswarm = Window:NewTab("BeeSwarm Script🤓")
+local BeeswarmSection = Beeswarm:NewSection("BeeSwarm Script🤓")
 
-BeeswarmSection:NewButton("Marco v2 Bee Swarm", "Marco v2", function()
+BeeswarmSection:NewButton("Marco v2 Bee Swarm👳🏿‍♂️", "Marco v2Swarm👳🏿‍♂️", function()
     loadstring(game:HttpGet(("https://www.macrov2-script.xyz/macrov2.lua"),true))()
 end)
 
-BeeswarmSection:NewButton("Kometa Hub Bee Swarm", "Kometa Hub", function()
+BeeswarmSection:NewButton("Kometa Hub Bee Swarm👦🏿", "Kometa Hub👦🏿", function()
     loadstring(game:HttpGet(('https://s.kometa.ga/kometa.lua'),true))()
 end)
 
--- Local Player
-local Player = Window:NewTab("Player")
-local PlayerSection = Player:NewSection("Player")
+-- Script 6
+local Shindo = Window:NewTab("Shindo Life 2 Script👱🏿‍♂️")
+local ShindoSection = Shindo:NewSection("Shindo Life 2 Script👱🏿‍♂️")
+ShindoSection:NewButton("Lite Script😎", "Lite😂", function()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua"),true))()
+end)
 
-PlayerSection:NewSlider("IshowSpeed", "BlackColorSpeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+ShindoSection:NewButton("V,G Hub😏", "smirk😏", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'),true))()
+end)
+
+-- Script 7
+local Brook = Window:NewTab("BrookHaven Nerd🤓")
+local BrookSection = Brook:NewSection("BrookHaven Nerd🤓")
+BrookSection:NewButton("Ice Script Nerd 🤓", "Nerd🤓", function ()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"),true))()
+end)
+
+BrookSection:NewButton("Het Roi Beo Luoi Tim Vai lul🤓")
+
+-- Script 8
+local Kinglegacy = Window:NewTab("King Legacy Nerd🤓")
+local KinglegacySection = Kinglegacy:NewSection("King Legacy Nerd🤓")
+KinglegacySection:NewButton("Deo Biet Ten Nerd🤓", "Deo Biet Ten Nerd🤓", function ()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"),true))()
+end)
+
+KinglegacySection:NewButton("Deo Biet Ten Part 2🤓", "Nerd That🤓", function ()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"),true))()
+end)
+
+-- Script 9
+-- Local Player
+local Player = Window:NewTab("Player Joker 5 Củ🤓")
+local PlayerSection = Player:NewSection("Player Joker 5 Củ🤓")
+
+PlayerSection:NewSlider("IshowSpeed🤓", "BlackColorSpeed🤓", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-PlayerSection:NewSlider("IshowJump", "BlackColorJump", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+PlayerSection:NewSlider("IshowJump🤓", "BlackColorJump🤓", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-PlayerSection:NewButton("Lam Speed Voi Jump Tro Lai Binh Thuong", " Speed Voi Jump Thanh Binh Thuong", function()
+PlayerSection:NewButton("Lam Speed Voi Jump Tro Lai Binh Thuong🤓", " Speed Voi Jump Thanh Binh Thuong🤓", function()
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
 
--- Joke
-local Other = Window:NewTab("Other Meme")
-local OtherSection = Other:NewSection("Other Meme")
-
-OtherSection:NewButton("Joke Do Dung Click", "Joke Day Dung Click", function()
+PlayerSection:NewButton("Joke Do Dung Click🤓", "Joke Day Dung Click🤓", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/MinhBeoVaiLon/MinhBeoTest/main/MinhBeoSource"),true))()
 end)
 
--- Coming Soon
-local ComingSoon = Window:NewTab("ComingSoon")
-local ComingSoonSection = ComingSoon:NewSection("Con Them Nhieu Script Tiep :)))")
+PlayerSection:NewButton("Con Nhieu Script Se Duoc Add Vo Tiep🤓")
 
 -- Vo Discord
 wait(1.1)
